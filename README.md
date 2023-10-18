@@ -38,3 +38,5 @@ use the Link given and configure and secure your Firewall! in my case my IP is h
 Now by default we have WAN and LAN Networks setup we now need to add the 3rd network via OPNsense as the DHCP assigned IPs will be assigned by our OPNsense. so in the panel go to Interfaces > Assignments and add the 3rd Network and name it Guest_LAN now our Multi-LAN Network should be fully up and operational.
 
 ![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/image6.PNG)
+
+Under Services > DHCPv4 > Guest_LAN you can set the IP address for this network i simply used 192.168.3.1, make sure it's enabled and configured correctly when u boot up PC1 and PC2 PC1 should be on the LAN Network (192.168.2.x) and PC2 should be on Guest_LAN (192.168.3.x)

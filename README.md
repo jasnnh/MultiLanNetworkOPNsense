@@ -16,4 +16,4 @@ OPNsense:
 https://opnsense.org/download/
 
 Lets configure our Network settings, File > Tools > Network Manager and under the NAT Networks tab click the create button and use the following settings in the image below. I'm naming my Network WAN with IP 192.168.10.0/24
-![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/1.PNG)
+![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/start.PNG)

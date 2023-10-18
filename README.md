@@ -21,6 +21,9 @@ Lets configure our Network settings, File > Tools > Network Manager and under th
 After creating a VM with the OPNsense image lets configure the VM Network settings, right-click > Settings > Network under Adapter 1 set it to NAT Network and using the WAN that we just configured
 ![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/2.PNG)
 
-Under Network settings Adapter 2 set it to Internal Network and name it LAN, and under Adapter 3 repeat this step however name it Guest_LAN instead now our network will have 3 networks WAN which will be our access to the internet and the 2 Guest Networks (our Mulit-LAN)
+Under Network settings Adapter 2 set it to Internal Network and name it LAN, and under Adapter 3 repeat this step however name it Guest_LAN instead now our network will have 3 networks WAN which will be our access to the internet and the 2 Guest Networks (our Multi-LAN)
 ![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/3.PNG)
+
+Run the OPNsense VM, once ran you must configure the Firewall first before it's working so what we will be doing is Option 1 Assigning Interfaces assign our WAN network that we assigned as 192.168.10.0/24 and our LAN enter the configuration that is prompted after you select 1. After Assigning Interfaces we will now proceed to Option 2 Set Interface IP address you can use any settings that you want. Once finished OPNsense will give us a Link to access the firewall panel in the browser like below:
+![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/image4.PNG)
 

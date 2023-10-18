@@ -25,5 +25,5 @@ Under Network settings Adapter 2 set it to Internal Network and name it LAN, and
 ![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/3.PNG)
 
 Run the OPNsense VM, once ran you must configure the Firewall first before it's working so what we will be doing is Option 1 Assigning Interfaces assign our WAN network that we assigned as 192.168.10.0/24 and our LAN enter the configuration that is prompted after you select 1. After Assigning Interfaces we will now proceed to Option 2 Set Interface IP address you can use any settings that you want. Once finished OPNsense will give us a Link to access the firewall panel in the browser like below:
-![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/image4.PNG)
+![Screenshot](https://github.com/jasnnh/MultiLanNetworkOPNsense/blob/main/image4.png)
 
